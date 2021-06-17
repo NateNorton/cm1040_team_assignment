@@ -195,6 +195,6 @@ article,.padding {
     transition-property: transform;
 }
 
-.social:hover {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
+.social img:hover {
+    transform: scale(1.1);
+}
