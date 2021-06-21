@@ -39,6 +39,12 @@ nav a.underlined {
     text-decoration: underline;
 }
 
+nav {
+    background-color: rgb(131, 197, 190);
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Dropdown menu */
 .dropdown_button {
@@ -81,12 +87,6 @@ nav a.underlined {
 .dropdown {
     position: relative;
     display: inline-block;
-}
-
-.nav_center {
-    background-color: rgb(131, 197, 190);
-    display: flex;
-    justify-content: center;
 }
 
 /* Main content */
