@@ -32,18 +32,18 @@ header {
 
 
 /* Navigation */
+nav {
+    background-color: rgb(131, 197, 190);
+    display: flex;
+    justify-content: center;
+}
+
 nav a {
     text-decoration: none;
 }
 
 nav a.underlined {
     text-decoration: underline;
-}
-
-nav {
-    background-color: rgb(131, 197, 190);
-    display: flex;
-    justify-content: center;
 }
 
 
