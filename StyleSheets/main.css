@@ -6,15 +6,14 @@
 body {
     font-family: 'Montaga', serif;
     font-size: 18px;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 
 /* top header with a site name */
 header {
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
-
     padding-top: 1%;
     padding-bottom: 1%;
 
@@ -88,9 +87,6 @@ nav a.underlined {
     background-color: rgb(131, 197, 190);
     display: flex;
     justify-content: center;
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
 }
 
 /* Main content */
@@ -103,9 +99,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 80%;
     padding: 1%;
-    max-width: 1000px;
     line-height: 1.5;
 }
 
@@ -144,8 +138,6 @@ section {
 .left {
     margin: auto;
     padding: 10px;
-    width: 80%;
-    max-width: 1000px;
     display: flex;
     justify-content: left;
 }
