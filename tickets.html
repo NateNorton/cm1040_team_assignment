@@ -1,120 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>The Park — Tickets</title>
-        <meta name="description" content="The Park — Tickets, Online shop, Day tickets, Anual tickets">
-        <link rel="stylesheet" href="StyleSheets/main.css">
-    </head>
 
-	<body>
-        <header>
-            <!--We could use image/logo of the park here instead of just letters-->
-            <h1>THE PARK</h1>
-        </header>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Park — Tickets</title>
+    <meta name="description" content="The Park — Tickets, Online shop, Day tickets, Anual tickets">
+    <link rel="stylesheet" href="StyleSheets/main.css">
+</head>
 
-        <nav>
-            <!--This creates dropdown buttons that are links to specific locations-->
-            <div class="dropdown">
-                <a href="index.html">
-                    <div class="dropdown_button">BEFORE YOU ARRIVE</div>
-                </a>
-                <div class="dropdown-content">
-                    <a href="index.html#about_the_park">ABOUT THE PARK</a>
-                    <a href="index.html#park_hours">PARK HOURS</a>
-                    <a href="index.html#contact">CONTACT</a>
-                    <a href="index.html#how_to_get_here">HOW TO GET THERE</a>
-                </div>
+<body>
+    <header>
+        <!--We could use image/logo of the park here instead of just letters-->
+        <h1>THE PARK</h1>
+    </header>
+
+    <nav>
+        <!--This creates dropdown buttons that are links to specific locations-->
+        <div class="dropdown">
+            <a href="index.html">
+                <div class="dropdown_button">BEFORE YOU ARRIVE</div>
+            </a>
+            <div class="dropdown-content">
+                <a href="index.html#about_the_park">ABOUT THE PARK</a>
+                <a href="index.html#park_hours">PARK HOURS</a>
+                <a href="index.html#contact">CONTACT</a>
+                <a href="index.html#how_to_get_here">HOW TO GET THERE</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="explore.html">
+                <div class="dropdown_button">EXPLORE</div>
+            </a>
+            <div class="dropdown-content">
+                <a href="explore.html#map_of_the_park">MAP</a>
+                <a href="explore.html#attractions">ATTRACTIONS</a>
+                <a href="explore.html#hotel">HOTEL</a>
+                <a href="explore.html#restaurants">RESTAURANTS</a>
+                <a href="explore.html#shops">SHOPS</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="tickets.html">
+                <div class="dropdown_button">TICKETS AND PACKAGES</div>
+            </a>
+            <div class="dropdown-content">
+                <a href="tickets.html#day_ticket">DAY TICKETS</a>
+                <a href="tickets.html#anual_ticket">ANUAL TICKETS</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2 class="center padding" id="day_ticket">DAY TICKETS</h2>
+
+        <section class="horizontal_grid">
+            <div class="ticket">
+                <h3>1 DAY TICKET<br>STANDARD</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
             </div>
 
-            <div class="dropdown">
-                <a href="explore.html">
-                    <div class="dropdown_button">EXPLORE</div>
-                </a>
-                <div class="dropdown-content">
-                    <a href="explore.html#map_of_the_park">MAP</a>
-                    <a href="explore.html#attractions">ATTRACTIONS</a>
-                    <a href="explore.html#hotel">HOTEL</a>
-                    <a href="explore.html#restaurants">RESTAURANTS</a>
-                    <a href="explore.html#shops">SHOPS</a>
-                </div>
+            <div class="ticket">
+                <h3>1 DAY TICKET<br>FASTRACK</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
             </div>
 
-            <div class="dropdown">
-                <a href="tickets.html">
-                    <div class="dropdown_button">TICKETS AND PACKAGES</div>
-                </a>
-                <div class="dropdown-content">
-                    <a href="tickets.html#day_ticket">DAY TICKETS</a>
-                    <a href="tickets.html#anual_ticket">ANUAL TICKETS</a>
-                </div>
+            <div class="ticket">
+                <h3>1 DAY TICKET<br>STUDENT</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
             </div>
-        </nav>
 
-        <main>
-            <h2 class="center padding" id="day_ticket">DAY TICKETS</h2>
+            <div class="ticket">
+                <h3>1 DAY TICKET<br>CHILD</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
+            </div>
+        </section>
 
-            <section class="horizontal_grid">
-                <div class="ticket">
-                    <h3>1 DAY TICKET<br>STANDARD</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </div>
+        <h2 class="center padding" id="anual_ticket">ANUAL TICKETS</h2>
 
-                <div class="ticket">
-                    <h3>1 DAY TICKET<br>FASTRACK</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </div>
+        <section class="horizontal_grid">
+            <article class="ticket">
+                <h3>ANUAL TICKET<br>STANDARD</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
+            </article>
 
-                <div class="ticket">
-                    <h3>1 DAY TICKET<br>STUDENT</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </div>
+            <article class="ticket">
+                <h3>ANUAL TICKET<br>FASTRACK</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
+            </article>
 
-                <div class="ticket">
-                    <h3>1 DAY TICKET<br>CHILD</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </div>
-            </section>
+            <article class="ticket">
+                <h3>ANUAL TICKET<br>STUDENT</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
+            </article>
 
-            <h2 class="center padding" id="anual_ticket">ANUAL TICKETS</h2>
+            <article class="ticket">
+                <h3>ANUAL TICKET<br>CHILD</h3>
+                <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
+                <p>TICKET INFO</p>
+            </article>
+        </section>
+    </main>
 
-            <section class="horizontal_grid">
-                <article class="ticket">
-                    <h3>ANUAL TICKET<br>STANDARD</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </article>
+    <!-- footer with links to social media -->
+    <footer>
+        <a href="#"><img src="Images/Instagram_logo.svg" alt="instagram logo" width="50" height="50"></a>
+        <a href="#"><img src="Images/Facebook_logo.svg" alt="facebook logo" width="50" height="50"></a>
+        <a href="#"><img src="Images/Twitter_Logo.svg" alt="twitter logo" width="50" height="50"></a>
+    </footer>
+</body>
 
-                <article class="ticket">
-                    <h3>ANUAL TICKET<br>FASTRACK</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </article>
-
-                <article class="ticket">
-                    <h3>ANUAL TICKET<br>STUDENT</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </article>
-
-                <article class="ticket">
-                    <h3>ANUAL TICKET<br>CHILD</h3>
-                    <img src="Images/ticket-1.jpg" alt="A ticket icon" class="responsive_image">
-                    <p>TICKET INFO</p>
-                </article>
-            </section>
-        </main>
-
-        <!-- footer with links to social media -->
-        <footer>
-            <a href="#"><img src="Images/Instagram_logo.svg" alt="instagram logo" width="50" height="50"></a>
-            <a href="#"><img src="Images/Facebook_logo.svg" alt="facebook logo" width="50" height="50"></a>
-            <a href="#"><img src="Images/Twitter_Logo.svg" alt="twitter logo" width="50" height="50"></a>
-        </footer>
-	</body>
 </html>
