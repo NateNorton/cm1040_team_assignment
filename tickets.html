@@ -10,48 +10,43 @@
 </head>
 
 <body>
-    <header>
-        <!--We could use image/logo of the park here instead of just letters-->
-        <h1>THE PARK</h1>
-    </header>
-
-    <nav>
-        <!--This creates dropdown buttons that are links to specific locations-->
-        <div class="dropdown">
-            <a href="index.html">
-                <div class="dropdown_button">BEFORE YOU ARRIVE</div>
-            </a>
-            <div class="dropdown-content">
-                <a href="index.html#about_the_park">ABOUT THE PARK</a>
-                <a href="index.html#park_hours">PARK HOURS</a>
-                <a href="index.html#contact">CONTACT</a>
-                <a href="index.html#how_to_get_here">HOW TO GET THERE</a>
-            </div>
+    <div class="header-wrapper">
+        <header>
+            <h1>THE PARK</h1>
+        </header>
+        <div class="navigation-desktop">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">BEFORE ARRIVAL</a>
+                        <ul>
+                            <li><a href="index.html#about_the_park">ABOUT THE PARK</a></li>
+                            <li><a href="index.html#park_hours">PARK HOURS</a></li>
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                            <li><a href="index.html#how_to_get_here">HOW TO GET THERE</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="explore.html">EXPLORE</a>
+                        <ul>
+                            <li><a href="explore.html#map_of_the_park">MAP</a></li>
+                            <li><a href="explore.html#attractions">ATTRACTIONS</a></li>
+                            <li><a href="explore.html#hotel">HOTEL</a></li>
+                            <li><a href="explore.html#restaurants">RESTAURANTS</a></li>
+                            <li><a href="explore.html#shops">SHOPS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="tickets.html">TICKETS</a>
+                        <ul>
+                            <li><a href="tickets.html#day_ticket">DAY TICKETS</a></li>
+                            <li><a href="tickets.html#anual_ticket">ANUAL TICKETS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-
-        <div class="dropdown">
-            <a href="explore.html">
-                <div class="dropdown_button">EXPLORE</div>
-            </a>
-            <div class="dropdown-content">
-                <a href="explore.html#map_of_the_park">MAP</a>
-                <a href="explore.html#attractions">ATTRACTIONS</a>
-                <a href="explore.html#hotel">HOTEL</a>
-                <a href="explore.html#restaurants">RESTAURANTS</a>
-                <a href="explore.html#shops">SHOPS</a>
-            </div>
-        </div>
-
-        <div class="dropdown">
-            <a href="tickets.html">
-                <div class="dropdown_button">TICKETS AND PACKAGES</div>
-            </a>
-            <div class="dropdown-content">
-                <a href="tickets.html#day_ticket">DAY TICKETS</a>
-                <a href="tickets.html#anual_ticket">ANUAL TICKETS</a>
-            </div>
-        </div>
-    </nav>
+    </div>
 
     <main>
         <h2 class="center padding" id="day_ticket">DAY TICKETS</h2>
