@@ -60,6 +60,8 @@ nav ul li ul {
 
 nav ul ul li{
     display: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 nav ul li:hover ul li{
@@ -94,6 +96,12 @@ main h2 {
 
 h2 {
     font-size: 2rem;
+}
+
+img {
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 3px;
 }
 
 .horizontal_grid {
