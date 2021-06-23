@@ -25,59 +25,55 @@ header {
 
     text-align: center;
     text-shadow: 2px 2px 4px grey;
-
-    padding: 40px;
 }
 
-.header-wrapper{
-    min-height: 100%;
-    width: 100%;
-    position: relative;
+nav {
+    background-color: rgb(131, 197, 190);
 }
 
-
-.navigation-desktop{
-    background: rgb(131, 197, 190);
-}
-
-nav{
-    height: 40px;
-    width: 560px;
-    padding: 40px;
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
-nav a{
-    display: block;
-    text-decoration: none;
-}
-
-nav a:hover{
-    background-color: rgb(111, 177, 170);
-}
-
-nav ul{
+nav ul {
+    padding: 0;
     list-style: none;
 }
 
+nav li:hover{
+    background-color: rgb(111, 177, 170);
+}
+
+nav > ul{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
 nav ul li{
-    float: left;
-    width: 160px;
-    height: 40px;
-    line-height: 40px;
-    background: rgb(131, 197, 190);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    background-color: rgb(131, 197, 190);
+}
+
+nav ul li ul {
+    position: absolute;
+    margin-left: -1rem;
 }
 
 nav ul ul li{
-    position: relative;
     display: none;
 }
 
 nav ul li:hover ul li{
     display: block;
     animation: navmenu 500ms forwards;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(241, 250, 238);
+}
+
+nav a:visited{
+    color: rgb(241, 250, 238);
 }
 
 @keyframes navmenu {
@@ -90,13 +86,6 @@ nav ul li:hover ul li{
         top:0px
     }
 }
-
-
-
-
-
-
-
 
 /* Main content */
 main h2 {
