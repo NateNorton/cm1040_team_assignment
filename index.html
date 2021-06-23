@@ -1,133 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>The Park — Home page</title>
-        <meta name="description" content="The Park — Home page">
-        <!--This is link to ccs-->
-        <link rel="stylesheet" href="StyleSheets/main.css">
-    </head>
 
-	<body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Park — Home page</title>
+    <meta name="description" content="The Park — Home page">
+    <!--This is link to ccs-->
+    <link rel="stylesheet" href="StyleSheets/main.css">
+</head>
+
+<body>
+    <div class="header-wrapper">
         <header>
-            <!--We could use image/logo of the park here instead of just letters-->
             <h1>THE PARK</h1>
         </header>
+        <div class="navigation-desktop">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">BEFORE ARRIVAL</a>
+                        <ul>
+                            <li><a href="index.html#about_the_park">ABOUT THE PARK</a></li>
+                            <li><a href="index.html#park_hours">PARK HOURS</a></li>
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                            <li><a href="index.html#how_to_get_here">HOW TO GET THERE</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="explore.html">EXPLORE</a>
+                        <ul>
+                            <li><a href="explore.html#map_of_the_park">MAP</a></li>
+                            <li><a href="explore.html#attractions">ATTRACTIONS</a></li>
+                            <li><a href="explore.html#hotel">HOTEL</a></li>
+                            <li><a href="explore.html#restaurants">RESTAURANTS</a></li>
+                            <li><a href="explore.html#shops">SHOPS</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="tickets.html">TICKETS</a>
+                        <ul>
+                            <li><a href="tickets.html#day_ticket">DAY TICKETS</a></li>
+                            <li><a href="tickets.html#anual_ticket">ANUAL TICKETS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-        <nav>
-            <!--This creates dropdown buttons that are links to specific locations-->
-            <div class="dropdown">
-                <a href="index.html">
-                    <div class="dropdown_button">BEFORE YOU ARRIVE</div>
-                </a>
-                <div class="dropdown-content">
-                    <a href="index.html#about_the_park">ABOUT THE PARK</a>
-                    <a href="index.html#park_hours">PARK HOURS</a>
-                    <a href="index.html#contact">CONTACT</a>
-                    <a href="index.html#how_to_get_here">HOW TO GET THERE</a>
-                </div>
+    <main>
+        <section id="about_the_park">
+            <div>
+                <h2 class="subtitle">ABOUT THE PARK</h2>
+                <p>
+                    The Park is an national park in the southern Noland. The park was established on September 25, 1890
+                    to protect 1,635 km2 of forested mountainous terrain. Encompassing a vertical relief of nearly 4,000
+                    above sea level. The park is south of, and contiguous with, Kings National Park; both parks are
+                    administered by the National Park Service. UNESCO designated the areas as The Park Reserve in 1976.
+                </p>
+
+                <img class="responsive_image" src="Images/park.jpg" alt="The Park photo">
+
+                <p>
+                    Many park visitors enter The Park through its southern entrance near the town of Three Rivers at The
+                    Mountain at 520 m elevation. The lower elevations around The Mountain contain the only National Park
+                    Service-protected ecosystem, consisting of blue oak woodlands, foothills chaparral, grasslands,
+                    yucca plants, and steep, mild river valleys.
+                </p>
+
+                <img class="responsive_image" src="Images/park_wide.jpg" alt="The Park photo">
+
+                <p>
+                    At higher elevations in the front country, between 1,700 and 2,700 m in elevation, the landscape
+                    becomes montane forest-dominated coniferous belt. Found here are Ponderosa, Jeffrey, sugar, and
+                    lodgepole pine trees, as well as abundant white and red fir. Found here too are the giant sequoia
+                    trees, the most massive living single-stem trees on earth. Between the trees, spring and summer
+                    snowmelts sometimes fan out to form lush, though delicate, meadows. In this region, visitors often
+                    see mule deer, squirrels.
+                </p>
             </div>
+        </section>
 
-            <div class="dropdown">
-                <a href="explore.html">
-                    <div class="dropdown_button">EXPLORE</div>
-                </a>
-                <div class="dropdown-content">
-                    <a href="explore.html#map_of_the_park">MAP</a>
-                    <a href="explore.html#attractions">ATTRACTIONS</a>
-                    <a href="explore.html#hotel">HOTEL</a>
-                    <a href="explore.html#restaurants">RESTAURANTS</a>
-                    <a href="explore.html#shops">SHOPS</a>
-                </div>
+        <section class="horizontal_grid" id="park_hours">
+            <!--this image needs to be squared-->
+            <img src="Images/park_1.jpg" alt="The Park photo" class="responsive_image">
+            <div>
+                <h2>Park Hours</h2>
+                <p>
+                    Hours of Operation (year-round):<br>
+                    Open daily 9:00 - 18:00 during the summer months.<br>
+                    Winter hours: 9:00 - 16:30<br>
+                    <br>
+                    Monday: Open for Group Reservations Only
+                </p>
             </div>
+        </section>
 
-            <div class="dropdown">
-                <a href="tickets.html">
-                    <div class="dropdown_button">TICKETS AND PACKAGES</div>
-                </a>
-                <div class="dropdown-content">
-                    <a href="tickets.html#day_ticket">DAY TICKETS</a>
-                    <a href="tickets.html#anual_ticket">ANUAL TICKETS</a>
-                </div>
+        <section class="horizontal_grid" id="contact">
+            <div>
+                <h2>Contact</h2>
+                <p>
+                    Main Reservations:<br>
+                    (866) 807-3598<br>
+
+
+                    Specific Reservations:<br>
+
+                    (877) 436-9726<br>
+                    P.O. Box 89, Sequoia<br>
+                    National Park, CA 93262<br>
+                    Email: <a href="mailto:contact@example.com">contact@example.com</a>
+                </p>
             </div>
-        </nav>
+            <!--this image needs to be squared-->
+            <img src="Images/park_2.jpg" alt="Park picture" class="responsive_image">
+        </section>
 
-        <main>
-            <section id="about_the_park">
-                <div>
-                    <h2 class="subtitle">ABOUT THE PARK</h2>
-                    <p>
-                        The Park is an national park in the southern Noland. The park was established on September 25, 1890 to protect 1,635 km2 of forested mountainous terrain. Encompassing a vertical relief of nearly 4,000 above sea level. The park is south of, and contiguous with, Kings National Park; both parks are administered by the National Park Service. UNESCO designated the areas as The Park Reserve in 1976.
-                    </p>
-    
-                    <img class="responsive_image" src="Images/park.jpg" alt="The Park photo">
-    
-                    <p>
-                        Many park visitors enter The Park through its southern entrance near the town of Three Rivers at The Mountain at 520 m elevation. The lower elevations around The Mountain contain the only National Park Service-protected ecosystem, consisting of blue oak woodlands, foothills chaparral, grasslands, yucca plants, and steep, mild river valleys.
-                    </p>
-    
-                    <img class="responsive_image" src="Images/park_wide.jpg" alt="The Park photo">
-    
-                    <p>
-                        At higher elevations in the front country, between 1,700 and 2,700 m in elevation, the landscape becomes montane forest-dominated coniferous belt. Found here are Ponderosa, Jeffrey, sugar, and lodgepole pine trees, as well as abundant white and red fir. Found here too are the giant sequoia trees, the most massive living single-stem trees on earth. Between the trees, spring and summer snowmelts sometimes fan out to form lush, though delicate, meadows. In this region, visitors often see mule deer, squirrels.
-                    </p>
-                </div>
-            </section>
-
-            <section class="horizontal_grid" id="park_hours">
+        <section id="how_to_get_here">
+            <div>
+                <h2 class="subtitle">HOW TO GET HERE</h2>
                 <!--this image needs to be squared-->
-                <img src="Images/park_1.jpg" alt="The Park photo" class="responsive_image">
-                <div>
-                    <h2>Park Hours</h2>
-                    <p>
-                        Hours of Operation (year-round):<br>
-                        Open daily 9:00 - 18:00 during the summer months.<br>
-                        Winter hours: 9:00 - 16:30<br>
-                        <br>
-                        Monday: Open for Group Reservations Only
-                    </p>
-                </div>
-            </section>
+                <img src="Images/map.jpg" alt="A Map how to get to The Park" class="responsive_image">
+                <h2>LOCATION</h2>
+                <address>
+                    101 Prestwick Road<br>INGS<br>LA8 0EU<br>020 2591 7972
+                </address>
+            </div>
+        </section>
+    </main>
 
-            <section class="horizontal_grid" id="contact">
-                <div>
-                    <h2>Contact</h2>
-                    <p>
-                        Main Reservations:<br>
-                        (866) 807-3598<br>
+    <!-- footer with links to social media -->
+    <footer>
+        <a href="#"><img src="Images/Instagram_logo.svg" alt="instagram logo" width="50" height="50"></a>
+        <a href="#"><img src="Images/Facebook_logo.svg" alt="facebook logo" width="50" height="50"></a>
+        <a href="#"><img src="Images/Twitter_Logo.svg" alt="twitter logo" width="50" height="50"></a>
+    </footer>
+</body>
 
-
-                        Specific Reservations:<br>
-
-                        (877) 436-9726<br>
-                        P.O. Box 89, Sequoia<br>
-                        National Park, CA 93262<br>
-                        Email: <a href="mailto:contact@example.com">contact@example.com</a>
-                    </p>
-                </div>
-                <!--this image needs to be squared-->
-                <img src="Images/park_2.jpg" alt="Park picture" class="responsive_image">
-            </section>
-
-            <section id="how_to_get_here">
-                <div>
-                    <h2 class="subtitle">HOW TO GET HERE</h2>
-                    <!--this image needs to be squared-->
-                    <img src="Images/map.jpg" alt="A Map how to get to The Park" class="responsive_image">
-                    <h2>LOCATION</h2>
-                    <address>
-                        101  Prestwick Road<br>INGS<br>LA8 0EU<br>020 2591 7972
-                    </address>
-                </div>
-            </section>
-        </main>
-
-        <!-- footer with links to social media -->
-        <footer>
-            <a href="#"><img src="Images/Instagram_logo.svg" alt="instagram logo" width="50" height="50"></a>
-            <a href="#"><img src="Images/Facebook_logo.svg" alt="facebook logo" width="50" height="50"></a>
-            <a href="#"><img src="Images/Twitter_Logo.svg" alt="twitter logo" width="50" height="50"></a>
-        </footer>
-	</body>
 </html>
