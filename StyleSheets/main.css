@@ -118,6 +118,19 @@ h2 {
     column-gap: 1rem;
 }
 
+/* tune home page section spacing */
+#about_the_park h2 {
+    padding-bottom: 1rem;
+}
+
+#about_the_park img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#home_page_content section {
+    padding-top: 3rem;
+}
 
 /* ticket page */
 .ticket {
