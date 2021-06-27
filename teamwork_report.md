@@ -31,22 +31,25 @@ We have agreed on the content for the website:
 
 
 ## Analysis of 5 theme park web sites.
-### https://www.sixflags.com/
+
+We have discussed pros and cons of different wesites in Slack. Here are some of them:
+
+### [https://www.sixflags.com/](https://www.sixflags.com/)
 
 well organised, easy to navigate, all important information is available on the home page, could have a better design
 
-### https://www.disneylandparis.com/en-gb/
+### [https://www.disneylandparis.com/en-gb/](https://www.disneylandparis.com/en-gb/)
 
 Strong theme, colourful and attractive, easy to navigate and all important information is available on the home page
 
-### https://www.altontowers.com/
+### [https://www.altontowers.com/](https://www.altontowers.com/)
 
 easy to navigate, links to buy tickets are all over the home page, all important information is available on the home page
 
-### https://teleport.by/en/
+### [https://teleport.by/en/](https://teleport.by/en/)
 
 Provides information about available service in an attractive way, all contact and admission information is on the home page: address, location, phone numbers, opening hours, online ticket shop, the web page is a bit messy and some less important information is presented on the home page
 
-### https://www.thorpepark.com
+### [https://www.thorpepark.com](https://www.thorpepark.com)
 
 Easy to navigate, all important information is available on the home page, passes and tickets are available to be bought online, links to an overnight stay, there is a mobile app to make it easier for customers who are using only mobile devices
