@@ -1,1 +1,0 @@
-teamwork_report.md is a team report, all related files are in the docs/ directory.
