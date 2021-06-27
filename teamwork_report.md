@@ -24,7 +24,29 @@ We have agreed that the purpose of the website should be the following:
 3. Ticket prices and online ticket shop
 
 We have agreed on the content for the website:
-1. Park theme:  Fun and exciting Water/Nature park 
-2. Types of attractions: Aquarium, Cable cars, Water splash slide, Roller coaster, Log flume, Pendulum ride, Drop tower, Rock climbing, Hike around the park.
-3. Any other services: Information centre, medical help centre, hotel, spa, car park, souvenir shop, restaurants, food stands, coffee shop
-4. Any other information: How to get to the park, Park map, Car park info, Links to the park social media pages, phone numbers, opening times, online ticket shop
+1. *Park theme:*  Fun and exciting Water/Nature park 
+2. *Types of attractions:* Aquarium, Cable cars, Water splash slide, Roller coaster, Log flume, Pendulum ride, Drop tower, Rock climbing, Hike around the park.
+3. *Any other services:* Information centre, medical help centre, hotel, spa, car park, souvenir shop, restaurants, food stands, coffee shop
+4. *Any other information:* How to get to the park, Park map, Car park info, Links to the park social media pages, phone numbers, opening times, online ticket shop
+
+
+## Analysis of 5 theme park web sites.
+### https://www.sixflags.com/
+
+well organised, easy to navigate, all important information is available on the home page, could have a better design
+
+### https://www.disneylandparis.com/en-gb/
+
+Strong theme, colourful and attractive, easy to navigate and all important information is available on the home page
+
+### https://www.altontowers.com/
+
+easy to navigate, links to buy tickets are all over the home page, all important information is available on the home page
+
+### https://teleport.by/en/
+
+Provides information about available service in an attractive way, all contact and admission information is on the home page: address, location, phone numbers, opening hours, online ticket shop, the web page is a bit messy and some less important information is presented on the home page
+
+### https://www.thorpepark.com
+
+Easy to navigate, all important information is available on the home page, passes and tickets are available to be bought online, links to an overnight stay, there is a mobile app to make it easier for customers who are using only mobile devices
