@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Montaga&family=Playfair+Display+SC:ital,wght@1,700&display=swap');
 
 
-/* Generic styles */
+/* Generic styles that applies gloably to whole document */
 body {
     font-family: 'Montaga', serif;
     font-size: 18px;
@@ -36,16 +36,20 @@ nav ul {
     list-style: none;
 }
 
+/* Need to change a colour when a menu item is hovered */
 nav li:hover{
     background-color: rgb(111, 177, 170);
 }
 
+/* Main menu items */
 nav > ul{
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
+    z-index: 1;
 }
 
+/* position: relative need to display nested items over with position: absolute; */
 nav ul li{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -53,6 +57,7 @@ nav ul li{
     background-color: rgb(131, 197, 190);
 }
 
+/* Nested (drop-down) menu items */
 nav ul li ul {
     position: absolute;
     margin-left: -1rem;
@@ -62,6 +67,7 @@ nav ul ul li{
     display: none;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    z-index: 2;
 }
 
 nav ul li:hover ul li{
@@ -69,6 +75,7 @@ nav ul li:hover ul li{
     animation: navmenu 500ms forwards;
 }
 
+/* Remove default decoration from nav links */
 nav a{
     text-decoration: none;
     color: rgb(241, 250, 238);
@@ -78,6 +85,7 @@ nav a:visited{
     color: rgb(241, 250, 238);
 }
 
+/* Drop-down animation */
 @keyframes navmenu {
     0%{
         opacity: 0;
@@ -89,7 +97,7 @@ nav a:visited{
     }
 }
 
-/* Main content */
+/* Default font for a page content */
 main h2 {
     font-family: 'Cormorant Unicase', serif;
 }
@@ -104,6 +112,7 @@ h2 {
     border-radius: 3px;
 }
 
+/* grid for column sections */
 .horizontal_grid {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -118,7 +127,7 @@ h2 {
     column-gap: 1rem;
 }
 
-/* home page section spacing tune */
+/* home page section spacing adjustments */
 #about_the_park h2 {
     padding-bottom: 1rem;
 }
@@ -173,6 +182,7 @@ h2 {
 
 }
 
+/* Make an image occupy available width */
 .responsive_image {
     width: 100%;
 }
@@ -183,8 +193,6 @@ h2 {
     border: none;
 }
 
-
-/* footer */
 footer {
     display: grid;
     grid-auto-flow: column;
@@ -194,6 +202,7 @@ footer {
     margin-bottom: 4rem;
 }
 
+/* footer links animation */
 footer img:hover {
     transform: scale(1.1);
 }
