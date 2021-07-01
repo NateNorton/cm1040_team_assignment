@@ -80,12 +80,12 @@ nav a:visited{
 
 @keyframes navmenu {
     0%{
-        opacity:0;
+        opacity: 0;
         top: 5px;
     }
     100%{
-        opacity:1;
-        top:0px
+        opacity: 1;
+        top: 0px;
     }
 }
 
@@ -165,12 +165,12 @@ h2 {
 }
 
 .ticket p {
-    
+
     background-color: rgb(131, 197, 190);
     color: rgb(241, 250, 238);
     text-decoration: underline;
     font-size: 1rem
-    
+
 }
 
 .responsive_image {

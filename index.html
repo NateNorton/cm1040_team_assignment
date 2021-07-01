@@ -1,30 +1,50 @@
+<!-- Credits:
+    This website was developed by Team 54 (tutor group 06) of CM1040-01 Web Development module
+    University of London, 2021
+
+    All text are creative commons from: https://en.wikipedia.org/
+    All images are creative commons from: https://search.creativecommons.org/
+    All map images are from https://www.openstreetmap.org/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Specify the character encoding for the HTML document -->
     <meta charset="utf-8">
+    <!-- Difine what version of Internet Explorer the page should be rendered as -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- A text browser's title bar displays -->
     <title>The Park — Home page</title>
+    <!-- A brief summary of the web page. Search engines use it in search results. -->
     <meta name="description" content="The Park — Home page">
-    <!--This is link to ccs-->
+    <!--All styles form the whole website comes from a file StyleSheets/main.css -->
     <link rel="stylesheet" href="StyleSheets/main.css">
 </head>
 
 <body>
-    <!-- Credits: -->
-    <!-- All text are creative commons from: https://en.wikipedia.org/ -->
-    <!-- All images are creative commons from: https://search.creativecommons.org/-->
-    <!-- All map images are from https://www.openstreetmap.org/ -->
+    <!--
+        Every page of this website comprises four container elements:
+        1. header — represents a header of the website
+        2. nav — A navigation menu with nested animated drop-down menus
+        3. main — encloses unique page content, comprises:
+            * section elements is a horizontal grid where child DIVs represent columns
+        4. footer — represents a footer with links to social medias.
+    -->
 
     <header>
         <h1>THE PARK</h1>
     </header>
 
+    <!-- A navigation menu with nested animated drop-down menus -->
     <nav>
         <ul>
             <li>
+                <!-- A main menu link -->
                 <a href="index.html">BEFORE ARRIVAL</a>
                 <ul>
+                    <!-- nested drop-down menu -->
                     <li><a href="index.html#about_the_park">ABOUT</a></li>
                     <li><a href="index.html#park_hours">PARK HOURS</a></li>
                     <li><a href="index.html#contact">CONTACT</a></li>
@@ -32,8 +52,10 @@
                 </ul>
             </li>
             <li>
+                <!-- A main menu link -->
                 <a href="explore.html">EXPLORE</a>
                 <ul>
+                    <!-- nested drop-down menu -->
                     <li><a href="explore.html#map_of_the_park">MAP</a></li>
                     <li><a href="explore.html#attractions">ATTRACTIONS</a></li>
                     <li><a href="explore.html#hotel">HOTEL</a></li>
@@ -42,8 +64,10 @@
                 </ul>
             </li>
             <li>
+                <!-- A main menu link -->
                 <a href="tickets.html">TICKETS</a>
                 <ul>
+                    <!-- nested drop-down menu -->
                     <li><a href="tickets.html#day_ticket">DAY</a></li>
                     <li><a href="tickets.html#anual_ticket">ANUAL</a></li>
                 </ul>
@@ -51,6 +75,7 @@
         </ul>
     </nav>
 
+    <!-- encloses unique page content -->
     <main id="home_page_content">
         <section id="about_the_park">
             <div>
@@ -140,8 +165,8 @@
         </section>
     </main>
 
-    <!-- footer with links to social media -->
     <footer>
+        <!-- links to social medias -->
         <a href="#"><img src="Images/Instagram_logo.svg" alt="instagram logo" width="50" height="50"></a>
         <a href="#"><img src="Images/Facebook_logo.svg" alt="facebook logo" width="50" height="50"></a>
         <a href="#"><img src="Images/Twitter_Logo.svg" alt="twitter logo" width="50" height="50"></a>
